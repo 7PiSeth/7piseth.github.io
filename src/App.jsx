@@ -9,6 +9,7 @@ import dictionary from "./assets/project/dictionary.png";
 import music from "./assets/project/music.png";
 import prediction from "./assets/project/prediction.png";
 import devutil from "./assets/project/dev-util.png";
+import chess from "./assets/project/chess-horse-profile.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -54,6 +55,11 @@ const projects = [
     imgSrc: devutil,
     demoLink: 'https://7piseth.github.io/dev-util/',
     sourceLink: 'https://github.com/7piseth/dev-util'
+  }, {
+    id: 8,
+    imgSrc: chess,
+    demoLink: 'https://7piseth.github.io/ouk-chaktrang/',
+    sourceLink: 'https://github.com/7piseth/ouk-chaktrang'
   }
 ]
 
