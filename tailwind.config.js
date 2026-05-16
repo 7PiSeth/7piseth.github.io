@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
+    "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
@@ -18,7 +19,7 @@ module.exports = {
       'fasthand': ['Fasthand', 'sans-serif'],
       'freehand': ['Freehand', 'sans-serif'],
       'hanuman': ['Hanuman', 'sans-serif'],
-      'khmer': ['khmer', 'sans-serif'],
+      'khmer': ['Khmer', 'sans-serif'],
       'kohsantepheap': ['Koh Santepheap', 'sans-serif'],
       'koulen': ['Koulen', 'sans-serif'],
       'metal': ['Metal', 'sans-serif'],
@@ -35,4 +36,3 @@ module.exports = {
   plugins: [require("daisyui")],
   darkMode: 'class',
 }
-
